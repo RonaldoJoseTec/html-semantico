@@ -28,7 +28,7 @@ Teste do *itálico*
 
 ![Eddie](https://pipz.com/static/images/blog/eddie.png) ![Eddie](https://pipz.com/static/images/blog/eddie.png) ![Eddie](https://pipz.com/static/images/blog/eddie.png)
 
->Não faltem! (João Roccella)
+>Não faltem! (Professor João Roccella)
 
 Método `console.log`() no javascript
 

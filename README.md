@@ -1,5 +1,5 @@
 # HTML Semântico
-### Dando significado à estruturas 
+### Dando significado às estruturas 
 Teste do **negrito**
 
 Teste do *itálico*

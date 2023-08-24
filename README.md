@@ -1,8 +1,8 @@
 # HTML Semântico
 ### Dando significado às estruturas 
-Teste do **negrito**
+Teste do **negrito** 
 
-Teste do *itálico*
+Teste do *itálico* _underscore_
 
 
 [Google](https://google.com/)

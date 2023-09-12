@@ -3,12 +3,58 @@ html {
 }
 
 body {
-    color:000;
+    margin: 20px 50px;
+    text-align: justify;
+    background-color: #cacdcf;
 }
 
-h1 {
-    color:saddlebrown;
+.titulo-de-pagina {
+    color: #27374D;
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-artigo {
+    color:  rgb(90, 89, 87);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-secao {
+    color: rgb(53, 49, 42);
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.subtitulo-de-artigo{
+    color: #8398a5;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #3f3f3f;
+    line-height: 1.2;
+}
+
+.paragrafo-de-artigo {
+    background-color: #b8c4cf;
+    padding: 20px 20px 0 20px;
+}
+
+article {
+    border: 4px solid #685c7e;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 35px;
 }

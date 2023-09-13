@@ -57,7 +57,11 @@ p{
 
 .paragrafo-de-artigo {
     background-color: var(--cor-quaternaria);
-    padding: 20px 20px 0 20px;
+    padding: 20px;
+}
+
+p + .paragrafo-de-artigo {
+    padding-top: 0;
 }
 
 article {
@@ -66,3 +70,16 @@ article {
     margin: 30px 0;
     border-radius: 35px;
 }
+
+.menu-principal ul {
+    background-color: var(--cor-secundaria);
+}
+
+.menu-principal li {
+    color: var(--cor-terciaria);
+}
+
+.menu-principal a {
+    color : var(--cor-terciaria)
+}
+

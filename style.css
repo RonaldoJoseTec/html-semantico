@@ -81,17 +81,29 @@ article {
     padding: 30px;
     margin: 30px 0;
     border-radius: 35px;
+    width: ;
 }
 
 .menu-principal ul {
     background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menu-principal li {
     color: var(--cor-terciaria);
+    line-height: 40px;
 }
 
 .menu-principal a {
     color : var(--cor-terciaria)
 }
 
+section#artigos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

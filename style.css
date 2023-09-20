@@ -4,6 +4,8 @@
     --cor-terciaria: #ffc26f;
     --cor-quaternaria: #b4b1ac;
     --cor-fundo: #cacdcf;
+    --fonte-primaria: 'Times New Roman', serif;
+    --fonte-secundaria: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -14,6 +16,7 @@ body {
     margin: 20px 50px;
     text-align: justify;
     background-color: var(--cor-fundo);
+    font-family: var(--fonte-primaria);
 }
 
 .titulo-de-pagina {
@@ -21,15 +24,7 @@ body {
     line-height: 2;
     font-weight: bold;
     font-size: 22pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.titulo-de-artigo {
-    color:  var(--cor-primaria);
-    line-height: 2;
-    font-weight: bold;
-    font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .titulo-de-secao {
@@ -37,18 +32,36 @@ body {
     line-height: 1.8;
     font-weight: bold;
     font-size: 18pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria);
     }
+
+/* 
+section#artigos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+*/
+
+.titulo-de-artigo {
+    color:  var(--cor-primaria);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: var(--fonte-secundaria);
+}
 
 .subtitulo-de-artigo {
     color: var(--cor-secundaria);
     line-height: 1.5;
     font-weight: bold;
     font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-secundaria);
     font-style: italic;
     margin-bottom: 10px;
 }
+
 
 p{
     color: #3f3f3f;
@@ -84,10 +97,12 @@ article {
     width: ;
 }
 
+/*Estilos do menu principal*/
+
 .menu-principal ul {
     background-color: var(--cor-secundaria);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     flex-direction: row;
     align-items: center;
 }
@@ -95,15 +110,18 @@ article {
 .menu-principal li {
     color: var(--cor-terciaria);
     line-height: 40px;
+    display: flex;
+    transition: all .5s;
 }
 
 .menu-principal a {
-    color : var(--cor-terciaria)
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 120%;
+    padding: 0 20px;
+
 }
 
-section#artigos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.menu-principal li:hover {
+    background-color: rgb(47, 87, 105);
 }
